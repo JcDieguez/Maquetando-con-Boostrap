@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700&display=swap');
+
+
+body {
+	font-family: "Barlow", sans-serif;
+	color: var(--body);
+	line-height: 1.7;
+	background-color: #101418;
+}
+
+.navbar-nav {
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.navbar-brand {
+	font-weight: 700;
+	font-size: 26px;
+}
+
+.btn {
+	padding: 8px 26px;
+}
+
+.btn-brand {
+	border-color: var(--brand);
+	background-color: var(--brand);
+	color: #fff;
+}
+
+.btn-brand:hover {
+	background-color: #d64022;
+	border-color: #d64022;
+	color: #fff;
+}
+
+
+.button {
+	text-align: center;
+}
+
+.img1 {
+	height: 550px;
+}
+
+.col{
+	background-color: #101418;
+}
+
+/* slide */
+.slide {
+	min-height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+}
+
+.slide1 {
+	background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../img/arnold3.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+/* Footer */
+footer {
+	color: white;
+	background: linear-gradient(0deg, rgba(28, 27, 36, 0.9), rgba(0, 0, 0, 0.9)), #082032;
+	;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+footer .footer-top {
+	padding-top: 80px;
+	padding-bottom: 40px;
+}
+
+.footer-bottom {
+	border-top: 1px solid rgba(255, 255, 255, 0.1);
+	padding-bottom: 20px;
+	padding-top: 20px;
+}
+
+footer .navbar-brand {
+	color: #fff;
+}
+
+footer p {
+	color: #ADB3B9;
+}
+
+footer .social-icons a {
+	width: 50px;
+	height: 50px;
+	font-size: 20px;
+	margin-left: 4px;
+	margin-right: 4px;
+}
+
+.social-icons a {
+    width: 28px;
+    height: 28px;
+    display: inline-flex;
+    color: #fff;
+    background-color: rgba(255, 255, 255, 0.25);
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100px;
+}
+
+.social-icons a:hover {
+    background-color: rgb(26, 27, 34);
+    color: var(--brand);
+}
